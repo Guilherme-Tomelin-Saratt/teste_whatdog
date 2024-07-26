@@ -7,8 +7,8 @@ from datetime import datetime
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
-input_dir = os.path.join(base_dir, 'app/atualizacao_valor_condenacao/Entrada')
-output_dir = os.path.join(base_dir, 'app/atualizacao_valor_condenacao/Saida')
+input_dir = os.path.join(base_dir, '/app/atualizacao_valor_condenacao/Entrada')
+output_dir = os.path.join(base_dir, '/app/atualizacao_valor_condenacao/Saida')
 processed_files_dir = os.path.join(base_dir, 'processed_files')
 log_file = os.path.join(base_dir, 'logfile.txt')
 
